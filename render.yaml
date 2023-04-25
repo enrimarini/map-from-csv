@@ -3,5 +3,5 @@ services:
     name: my-interactive-map
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: python app.py
+    startCommand: python generatemap.py
     healthCheckPath: /_alive
