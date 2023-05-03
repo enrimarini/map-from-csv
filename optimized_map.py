@@ -1,5 +1,5 @@
 import pandas as pd
-import folium
+import folium 
 from folium.plugins import FastMarkerCluster
 import dash
 from dash import dcc
